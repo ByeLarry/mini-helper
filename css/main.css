@@ -39,8 +39,7 @@ footer {
 
 
 .main {
-    margin: 0 5%;
-    height: 100%;
+    margin: 0 5vw;
     background: #fafafa;
     margin-bottom: 50px;
     border: 2px solid silver;
@@ -76,12 +75,14 @@ footer {
 
 textarea {
     display: block;
+    width: 100%;
+    display: block;
     resize: none;
     font-size: 1.2rem;
-    padding: 5px;
+    margin-bottom: 20px;
     border: 2px solid silver;
     border-radius: 10px;
-    max-height: 50vh;
+
 }
 
 .select {
