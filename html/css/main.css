@@ -46,6 +46,7 @@ footer {
     border-radius: 10px;
     padding: 20px 2.5%;
     text-align: center;
+    height: 100%;
 }
 
 .main button {
@@ -78,7 +79,7 @@ textarea {
     width: 100%;
     display: block;
     resize: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     border: 2px solid silver;
     border-radius: 10px;
@@ -101,4 +102,9 @@ input {
     border-radius: 10px;
     max-height: 50vh;
     margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
