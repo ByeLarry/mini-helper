@@ -4,20 +4,23 @@
 }
 
 html, body {
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
 }
 
 .main-wrapper {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100%;
     flex: auto;
 }
 
 header {
+   position: fixed;
+   top: 0;
+   left: 0;
    width: 100%;
    height: 50px;
    text-align: center;
@@ -29,17 +32,18 @@ header {
 }
 
 footer {
-    margin-bottom: 0;
-    margin-top: 50px;
-    border-top: 2px solid silver;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
     background: #333;
     color: white;
     line-height: 50px;
     text-align: center;
-    width: 100%;
-    height: 50px;
     font-size: 1.2rem;
 }
+
 
 
 .main {
@@ -87,7 +91,6 @@ textarea {
     margin-bottom: 20px;
     border: 2px solid silver;
     border-radius: 10px;
-    height: inherit;
 }
 
 .select {
