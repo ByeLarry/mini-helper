@@ -14,6 +14,7 @@ const convertInput = document.getElementById('input');
 const convertOutput = document.getElementById('output');
 if (convertButton) {
     convertButton.addEventListener('click', () => {
+        document.querySelector('.spinner').style.display = 'block';
         const text = convertInput.value;
         let newVal;
         if (newSubstring.value == '') {
@@ -23,6 +24,7 @@ if (convertButton) {
         }
 
         convertOutput.value = text.replace(/\n/g, newVal);
+        document.querySelector('.spinner').style.display = 'none';
     });
 }
 
