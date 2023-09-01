@@ -1,8 +1,9 @@
 FROM nginx:alpine
 
-COPY html/css/ /usr/share/nginx/html/css/
-COPY html/ /usr/share/nginx/html/
-COPY html/scripts/ /usr/share/nginx/html/scripts/
+WORKDIR /usr/share/nginx/html/
+COPY html/css/ ./css/
+COPY html/ .
+COPY html/scripts/ ./scripts/
 
 EXPOSE 80
 
